@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img\logo.svg">
+  <title>Sneakerhead</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content container">
+      <nav class="header__navigation">
+        <img class="header__logo" src="img\logo.svg" alt="logo">
+        <ul class="header__anchors">
+          <li class="header__anchor"><a class="basket-btn">Корзина</a></li>
+          <li class="header__anchor"><a href="index.html">Главная</a></li>
+          <li class="header__anchor"><a href="catalog.html">Каталог</a></li>
+          <li class="header__anchor"><a href="auth.html">Вход</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <section class="page__production">
+      <div class="production__container container">
+      <h1 class="production__title title">Каталог товаров</h1>
+      <div class="production__items">
+            <div class="production__item">
+              <img class="item__img" src="img\sneakers.jpg" alt="">
+              <button class="item__button" name="Reebok DMX Trail Shadow" data-price="15490">Добавить в корзину</button>
+              <p class="item__description"><span class="colored">Reebok</span> DMX Trail Shadow</p>
+              <p class="item__description">15 490 р.</p>
+            </div>
+            <div class="production__item">
+              <img class="item__img" src="img\converse.jpg" alt="">
+              <button class="item__button" name="Converse x Sean Pablo One Star Pro" data-price="12800">Добавить в корзину</button>
+              <p class="item__description"><span class="colored">Converse</span> x Sean Pablo One Star Pro</p>
+              <p class="item__description">12 800 р.</p>
+            </div>
+            <div class="production__item">
+              <img class="item__img" src="img\puma.jpg" alt="">
+              <button class="item__button" name="Puma Suede Mid WTR" data-price="13990">Добавить в корзину</button>
+              <p class="item__description"><span class="colored">Puma</span> Suede Mid WTR</p>
+              <p class="item__description">13 990 р.</p>
+            </div>
+            <div class="production__item">
+              <img class="item__img" src="img\jordan.jpg" alt="">
+              <button class="item__button" name="Jordan Legacy 312" data-price="18990">Добавить в корзину</button>
+              <p class="item__description"><span class="colored">Jordan</span> Legacy 312</p>
+              <p class="item__description">18 990 р.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div class="basket">
+      <div class="basket__content">
+        <h3 class="basket__title title">Итого: <span class="basket__value">0</span> р.</h3>
+        <p class="basket__description">Нажмите на элемент, чтобы его удалить</p>
+        <div class="basket__content"></div>
+    </div>
+    </div>  
+  </main>
+  <footer class="footer">
+    <div class="footer__content container">
+      <div class="footer__contacts">
+        <div class="contacts__item">+7 (800) 700-32-53</div>
+        <div class="contacts__item"><a href="mailto:order@sneakerhead.ru">order@sneakerhead.ru</a></div>
+        <div class="contacts__item">ул. Никольская, 10/2 с.2Б (м. Лубянка)</div>
+      </div>
+      <div class="footer__copy">© 2022 <span class="colored">sneakerhead.ru</span> — магазин модной обуви.</div>
+    </div>
+  </footer>
+  <script src="php\script.js"></script>
+</body>
+
+</html>

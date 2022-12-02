@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img\logo.svg">
+  <title>Sneakerhead</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content container">
+      <nav class="header__navigation">
+        <img class="header__logo" src="img\logo.svg" alt="logo">
+        <ul class="header__anchors">
+          <li class="header__anchor"><a href="index.html">Главная</a></li>
+          <li class="header__anchor"><a href="catalog.html">Каталог</a></li>
+          <li class="header__anchor"><a href="auth.html">Вход</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <section class="page__authorization">
+      <div class="authorization__container container">
+        <h1 class="authorization__title title"><span class="colored">Вход</span></h1>
+        <form class="authorization__form" action="index.php">
+          <label for="login">Логин</label>
+          <input class="authorization__input" type="text" name="login">
+          <label for="password">Пароль</label>
+          <input class="authorization__input" type="text" name="password">
+          <input class="authorization__btn" type="submit">
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content container">
+      <div class="footer__contacts">
+        <div class="contacts__item">+7 (800) 700-32-53</div>
+        <div class="contacts__item"><a href="mailto:order@sneakerhead.ru">order@sneakerhead.ru</a></div>
+        <div class="contacts__item">ул. Никольская, 10/2 с.2Б (м. Лубянка)</div>
+      </div>
+      <div class="footer__copy">© 2022 <span class="colored">sneakerhead.ru</span> — магазин модной обуви.</div>
+    </div>
+  </footer>
+  <script src="auth.js"></script>
+</body>
+
+</html>
